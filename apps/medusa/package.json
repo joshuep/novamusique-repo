@@ -15,6 +15,7 @@
   "scripts": {
     "build": "medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
+    "seed:shows": "medusa exec ./src/scripts/seed-shows.ts",
     "start": "medusa start",
     "dev": "medusa develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
@@ -25,7 +26,9 @@
     "@medusajs/admin-sdk": "2.13.1",
     "@medusajs/cli": "2.13.1",
     "@medusajs/framework": "2.13.1",
-    "@medusajs/medusa": "2.13.1"
+    "@medusajs/medusa": "2.13.1",
+    "@types/qrcode": "^1.5.6",
+    "qrcode": "^1.5.4"
   },
   "devDependencies": {
     "@medusajs/test-utils": "2.13.1",
