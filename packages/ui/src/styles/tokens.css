@@ -1,0 +1,59 @@
+/* Nova Musique Design System - Design Tokens */
+
+:root {
+  /* Nova Brand Colors */
+  --nova-flammeche: #FF5D75;
+  --nova-azur: #18A4AF;
+  --nova-soleil: #FAA61A;
+  --nova-cosmos: #361C52;
+  --nova-bg: #0a0a12;
+  --nova-text: #F5F5F5;
+  --nova-body: #E8B4BC;
+
+  /* Semantic Tokens */
+  --background: #0a0a12;
+  --foreground: #F5F5F5;
+  --body-text: #E8B4BC;
+  --card: transparent;
+  --card-foreground: #F5F5F5;
+  --popover: rgba(10, 10, 18, 0.95);
+  --popover-foreground: #F5F5F5;
+  --primary: #FF5D75;
+  --primary-foreground: #0a0a12;
+  --secondary: #18A4AF;
+  --secondary-foreground: #0a0a12;
+  --muted: rgba(232, 180, 188, 0.15);
+  --muted-foreground: #E8B4BC;
+  --accent: #FAA61A;
+  --accent-foreground: #0a0a12;
+  --destructive: #FF5D75;
+  --destructive-foreground: #F5F5F5;
+  --border: rgba(255, 255, 255, 0.2);
+  --input: transparent;
+  --ring: #FF5D75;
+
+  /* Chart colors using Nova palette */
+  --chart-1: #FF5D75;
+  --chart-2: #18A4AF;
+  --chart-3: #FAA61A;
+  --chart-4: #361C52;
+  --chart-5: #9B59B6;
+
+  /* Radius Tokens */
+  --radius: 9999px;
+  --radius-card: 1.5rem;
+
+  /* Pill/Badge tokens */
+  --pill-bg: transparent;
+  --pill-border: rgba(255, 255, 255, 0.3);
+
+  /* Sidebar */
+  --sidebar: rgba(10, 10, 18, 0.95);
+  --sidebar-foreground: #F5F5F5;
+  --sidebar-primary: #FF5D75;
+  --sidebar-primary-foreground: #0a0a12;
+  --sidebar-accent: rgba(54, 28, 82, 0.5);
+  --sidebar-accent-foreground: #F5F5F5;
+  --sidebar-border: rgba(255, 255, 255, 0.2);
+  --sidebar-ring: #FF5D75;
+}
